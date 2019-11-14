@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaEditorBot", "MediaEditorBot\MediaEditorBot.csproj", "{862BA5AE-E4D2-42AD-954E-44D68D7EAE26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaEditorBot.DataAccess", "MediaEditorBot.DataAccess\MediaEditorBot.DataAccess.csproj", "{C12D950C-E014-4FA1-9C27-BEF5F24C8CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaEditorBot.Tests", "MediaEditorBot.Tests\MediaEditorBot.Tests.csproj", "{9317E5D1-2E1F-4A53-B857-AE0C5AE28346}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{862BA5AE-E4D2-42AD-954E-44D68D7EAE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{862BA5AE-E4D2-42AD-954E-44D68D7EAE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{862BA5AE-E4D2-42AD-954E-44D68D7EAE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12D950C-E014-4FA1-9C27-BEF5F24C8CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12D950C-E014-4FA1-9C27-BEF5F24C8CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12D950C-E014-4FA1-9C27-BEF5F24C8CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12D950C-E014-4FA1-9C27-BEF5F24C8CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9317E5D1-2E1F-4A53-B857-AE0C5AE28346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9317E5D1-2E1F-4A53-B857-AE0C5AE28346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9317E5D1-2E1F-4A53-B857-AE0C5AE28346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9317E5D1-2E1F-4A53-B857-AE0C5AE28346}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
